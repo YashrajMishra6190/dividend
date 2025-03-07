@@ -4,8 +4,8 @@ import streamlit as st
 st.title("Dividend Calculation")
 
 # User inputs
-x = st.number_input("Enter x in ₹:", min_value=0)
-y = st.number_input("Enter y in ₹:", min_value=0)
+x = st.number_input("Enter Share Opening in ₹:", min_value=0)
+y = st.number_input("Enter New Share in ₹:", min_value=0)
 month = st.number_input("Enter Month:", min_value=1, max_value=12)
 
 # Calculate the result if the month is valid
